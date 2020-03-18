@@ -1,0 +1,1182 @@
+{% set title = "TicTac | Результаты" %} {% set activePage = "results" %} {% extends "layout.html" %} {% block content %}
+<section class="tictac">
+    <div class="container">
+        <div class="tictac__slogan-row">
+            <div class="tictac__slogan-text">
+                <div class="tictac__slogan-text-tab-item js-slogan-item">
+                    Продажи — Просто Космос!
+                </div>
+                <div class="tictac__slogan-text-tab-item js-slogan-item">
+                    <span class="small">Расширяем базу точек на космической скорости</span>
+                </div>
+                <div class="tictac__slogan-text-tab-item js-slogan-item">
+                    Твоя команда на высоте!
+                </div>
+                <div class="tictac__slogan-text-tab-item js-slogan-item">
+                    <span class="small">
+                        Сделаем продажи вселенских масштабов
+                    </span>
+                </div>
+            </div>
+            <div class="tictac__image-container">
+                <img src="img/tictacs.png" alt="ТикТак" class="tictac__image" width="670" />
+            </div>
+        </div>
+        <div class="tictac__mobile-types">
+            <div class="tictac__mobile-type js-type-item">
+                Торговый представитель
+            </div>
+            <div class="tictac__mobile-type js-type-item">
+                Супервайзер
+            </div>
+            <div class="tictac__mobile-type js-type-item">
+                АСМ
+            </div>
+            <div class="tictac__mobile-type js-type-item">
+                ЛКАМ
+            </div>
+        </div>
+        <div class="tictac__search">
+            <div class="tictac__search-wrapper">
+                <input type="search" class="tictac__search-box" id="search" />
+                <label for="search" class="tictac__search-label">
+                    Поиск по списку
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="tictac__data">
+        <div class="container">
+            <div class="tictac__data-tabs">
+                <div class="tictac__data-tab js-data-tab">
+                    <div class="tictac__data-three-column-block">
+                        <div class="tictac__data-three-column-block-tabs-nav ">
+                            <a href="#" class="tictac__data-three-column-block-tabs-nav-btn js-three-col-nav">
+                                1 POSm
+                            </a>
+                            <a href="#" class="tictac__data-three-column-block-tabs-nav-btn js-three-col-nav">
+                                2-3 POSm
+                            </a>
+                            <a href="#" class="tictac__data-three-column-block-tabs-nav-btn js-three-col-nav">
+                                3 и более POSm
+                            </a>
+                        </div>
+                        <div class="tictac__data-three-column-block-row ">
+                            <div class="tictac__data-three-column-block-col js-three-col-tabs">
+                                <div class="tictac__data-three-column-block-card">
+                                    <h4 class="tictac__data-three-column-block-card-heading">
+                                        1 POSm
+                                    </h4>
+                                    <ul class="tictac__data-three-column-block-list">
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                1.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                2.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                3.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                4.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                5.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                6.
+                                            </span>
+                                            <span class="name">
+                                                Андрей Андреев
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                7.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                8.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                9.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tictac__data-three-column-block-col js-three-col-tabs">
+                                <div class="tictac__data-three-column-block-card">
+                                    <h4 class="tictac__data-three-column-block-card-heading">
+                                        1 POSm
+                                    </h4>
+                                    <ul class="tictac__data-three-column-block-list">
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                1.
+                                            </span>
+                                            <span class="name">
+                                                Алексей Алексеев
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                2.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                3.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                4.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                5.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                6.
+                                            </span>
+                                            <span class="name">
+                                                Андрей Андреев
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                7.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                8.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                9.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tictac__data-three-column-block-col js-three-col-tabs">
+                                <div class="tictac__data-three-column-block-card">
+                                    <h4 class="tictac__data-three-column-block-card-heading">
+                                        1 POSm
+                                    </h4>
+                                    <ul class="tictac__data-three-column-block-list">
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                1.
+                                            </span>
+                                            <span class="name">
+                                                Иван Сидоров
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                2.
+                                            </span>
+                                            <span class="name">
+                                                Виталик Витаминов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                3.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                4.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                5.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                6.
+                                            </span>
+                                            <span class="name">
+                                                Андрей Андреев
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                7.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                8.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                        <li class="tictac__data-three-column-block-list-item">
+                                            <span class="place">
+                                                9.
+                                            </span>
+                                            <span class="name">
+                                                Иван Иванов
+                                            </span>
+                                            <span class="score">
+                                                55
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tictac__data-tab js-data-tab">
+                    <div class="tictac__info-card">
+                        <div class="tictac__info-card-header">
+                            <span class="header-number">
+                                №
+                            </span>
+                            <span class="header-name">
+                                Участник
+                            </span>
+                            <span class="header-score">
+                                Кол-Во<br />
+                                новых точек
+                            </span>
+                        </div>
+                        <div class="tictac__info-card-content">
+                            <ul class="tictac__info-card-content-list js-info-content-list">
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        1.
+                                    </span>
+                                    <span class="name">
+                                        Сергей Васильев
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        2.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        3.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        4.
+                                    </span>
+                                    <span class="name">
+                                        Петр Александров
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        5.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        6.
+                                    </span>
+                                    <span class="name">
+                                        Александр Сидоров
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        7.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        8.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        9.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        10.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        11.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        12.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        13.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        14.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        15.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        16.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        17.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        18.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        19.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        20.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        21.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        22.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tictac__data-tab js-data-tab">
+                    <div class="tictac__info-card">
+                        <div class="tictac__info-card-header">
+                            <span class="header-number">
+                                №
+                            </span>
+                            <span class="header-name">
+                                Участник
+                            </span>
+                            <span class="header-score">
+                                % выполнения<br />
+                                плана
+                            </span>
+                        </div>
+                        <div class="tictac__info-card-content">
+                            <ul class="tictac__info-card-content-list js-info-content-list">
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        1.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        2.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        3.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        4.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        5.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        6.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        7.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        8.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        9.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        10.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        11.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        12.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        13.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        14.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        15.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        16.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        17.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        18.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        19.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        20.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        21.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        22.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tictac__data-tab js-data-tab">
+                    <div class="tictac__info-card">
+                        <div class="tictac__info-card-header">
+                            <span class="header-number">
+                                №
+                            </span>
+                            <span class="header-name">
+                                Участник
+                            </span>
+                            <span class="header-score">
+                                Количество<br />
+                                отгрузок
+                            </span>
+                        </div>
+                        <div class="tictac__info-card-content">
+                            <ul class="tictac__info-card-content-list js-info-content-list">
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        1.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        2.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        3.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        4.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        5.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item tictac__info-card-content-list-item--highlighted">
+                                    <span class="number">
+                                        6.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        7.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        8.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        9.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        10.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        11.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        12.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        13.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        14.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        15.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        16.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        17.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        18.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        19.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        20.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        21.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                                <li class="tictac__info-card-content-list-item">
+                                    <span class="number">
+                                        22.
+                                    </span>
+                                    <span class="name">
+                                        Иван Иванов
+                                    </span>
+                                    <span class="score">
+                                        55
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
