@@ -766,6 +766,7 @@ body {
           flex-direction: column;
   font-family: 'Blogger Sans', sans-serif;
   background-color: var(--primary-color);
+  background-color: #fff;
   color: white;
   font-weight: 700; }
 
@@ -1139,6 +1140,7 @@ img.lazyload:not([src]) {
 .tictac {
   background-size: 100% auto;
   background-position: center top;
+  background-color: var(--primary-color);
   background-image: url("../img/tictac-bg.jpg");
   background-repeat: no-repeat;
   position: relative;
